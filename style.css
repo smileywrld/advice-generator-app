@@ -8,4 +8,23 @@ body {
     width: 100%;
     height: 100vh;
     background: hsl(218, 23%, 16%);
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+main {
+    min-width: 400px;
+    max-width: 600px;
+    text-align: center;
+    background: hsl(217, 19%, 24%);
+    padding: 20px;
+}
+
+#advice{
+    
 }
