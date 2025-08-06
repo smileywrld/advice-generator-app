@@ -18,13 +18,20 @@ body {
 }
 
 main {
-    min-width: 400px;
-    max-width: 600px;
+    min-width: 350px;
+    max-width: 500px;
+    height: fit-content;
     text-align: center;
     background: hsl(217, 19%, 24%);
     padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 5, 5, 0.5);
 }
 
-#advice{
-    
+#advice {
+    color: hsl(193, 38%, 86%);
+    font-size: 1.75rem;
+}
+
+p {
+    color: hsl(150, 100%, 66%);
 }
