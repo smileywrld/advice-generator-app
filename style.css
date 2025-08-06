@@ -31,6 +31,7 @@ main {
 #advice {
     color: hsl(193, 38%, 86%);
     font-size: 1.75rem;
+    margin: 1.5rem 0;
 }
 
 p {
@@ -46,6 +47,6 @@ p {
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 45%;
-    top: 20%;
+    left: 44%;
+    top: 19%;
 }
