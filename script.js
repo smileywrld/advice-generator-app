@@ -1,10 +1,9 @@
+window.addEventListener("DOMContentLoaded", fetchData);
 const adviceTitle = document.getElementById("advice-id");
 
 const advice = document.getElementById("advice");
 
 const diceBtn = document.querySelector(".dice-btn");
-
-window.addEventListener("DOMContentLoaded", fetchData);
 
 async function fetchData() {
 	const response = await fetch("https://api.adviceslip.com/advice");
@@ -15,3 +14,5 @@ async function fetchData() {
 
 	advice.innerText = json.slip.advice;
 }
+
+diceBtn.addEventListener("click", fetchData);
