@@ -7,12 +7,12 @@ const diceBtn = document.querySelector(".dice-btn");
 
 async function fetchData() {
 	const response = await fetch("https://api.adviceslip.com/advice");
-	const json = await response.json();
-	console.log(json);
+	const theJson = await response.json();
+	console.log(theJson);
 
-	adviceTitle.innerText = `Advice # ${json.slip.id}`;
+	adviceTitle.innerText = `Advice # ${theJson.slip.id}`;
 
-	advice.innerText = json.slip.advice;
+	advice.innerText = theJson.slip.advice;
 }
 
 diceBtn.addEventListener("click", fetchData);
